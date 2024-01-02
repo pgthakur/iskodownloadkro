@@ -1,0 +1,27 @@
+/* ImageBox.css */
+.image-box {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.image-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
